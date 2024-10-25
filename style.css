@@ -1,61 +1,61 @@
-/* Se selecciona la etiqueta body lo cual hara que todo lo que mo */
+/* Se selecciona la etiqueta body lo cual hara que todo lo que se defina abajo se aplique a todo el body */
 body {
     /* Se elige el tipo de letra que contendra todo el texto que este almacenado en el body */
     font-family: sans-serif;
-    /* Agrega un comentario aquí para explicar el atributo margin */
+    /* Se define una margen u espacio por fuera, en este caso 0 osea ninguna */
     margin: 0;
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .contenedor */
+/* Aqui se define una clase la cual sera llamada en el html y se aplicara unicamente a las etiquetas donde esta sea llamada en este caso creara el contenedor de nuestras tarjetas */
 .contenedor {
-    /* Agrega un comentario aquí para explicar el atributo display */
+    /* El atributo display se define como queremos que se observe en este caso el contenedor */
     display: flex; 
-    /* Agrega un comentario aquí para explicar el atributo flex-wrap */
+    /* Aqui podemos definir si queremos que conforme la pagina se vaya haciendo mas chica los elementos se organicen automaticamente debajo */
     flex-wrap: wrap; 
-    /* Agrega un comentario aquí para explicar el atributo justify-content */
+    /* Con esta podemos definir como deben de estar los elementos alineados al final o al inicio, si queremos que tengan un espacio entre ellos */
     justify-content: space-around; 
-    /* Agrega un comentario aquí para explicar el atributo padding */
+    /* con el padding definimos una margen o espacio dentro del contenedor */
     padding: 20px;
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta */
+/* Aqui se define una clase la cual sera llamada en el html y se aplicara unicamente a las etiquetas donde esta sea llamada */
 .tarjeta {
-    /* Agrega un comentario aquí para explicar el atributo width */
+    /* Aqui definimos el ancho que queremos que tengan nuestras tarjetas */
     width: 300px; 
-    /* Agrega un comentario aquí para explicar el atributo margin */
+    /* aqui definimos una margen externa de nuestras tarjetas */
     margin: 10px; 
-    /* Agrega un comentario aquí para explicar el atributo border */
-    border: 1px solid #ccc; 
-    /* Agrega un comentario aquí para explicar el atributo padding */
+    /* Aqui definimos la linea que tendra nuestra tarjeta alrededor, gruesa o delgada, continua o intermitente y el color  */
+    border: 10px  #ccc; 
+    /* aqui se define una margen interna de las tarjetas */
     padding: 20px; 
-    /* Agrega un comentario aquí para explicar el atributo border-radius */
+    /* Aqui definimos que tan redondeados queremos los bordes de nuestra tarjeta */
     border-radius: 5px; 
-    /* Agrega un comentario aquí para explicar el atributo box-shadow */
+    /* Se coloca una especie de sombra o desvanecido lo cual es da un efecto  alrededor de la tarjeta*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta img */
+/* Aqui se define una clase la cual sera llamada en el html y se aplicara unicamente a las etiquetas donde esta sea llamada y modificara las imagenes que este dentro de una etiqueta <img> */
 .tarjeta img {
-    /* Agrega un comentario aquí para explicar el atributo width */
+    /* Aqui colocamos el ancho de la imagen */
     width: 100%; 
-    /* Agrega un comentario aquí para explicar el atributo height */
+    /* y aqui se define el alto de la imagen */
     height: auto; 
-    /* Agrega un comentario aquí para explicar el atributo display */
+    /* Aqui definimos como queremos que se muestre la imagen en este caso ocupa una linea */
     display: block; 
-    /* Agrega un comentario aquí para explicar el atributo border-radius */
+    /* Aqui se define que tan redondeado debe de ser el borde  */
     border-radius: 5px 5px 0 0; 
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta h3 */
+/* Aqui se define una clase la cual sera llamada en el html y se aplicara unicamente a las etiquetas donde esta sea llamada y modificara los textos o titulos que este dentro de una etiqueta <h3>  */
 .tarjeta h3 {
-    /* Agrega un comentario aquí para explicar el atributo margin-top */
+    /* Aqui definimos una margen unicamente en la parte de arriba */
     margin-top: 10px; 
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta p */
+/* Aqui se define una clase la cual sera llamada en el html y se aplicara unicamente a las etiquetas donde esta sea llamada y modificara los parrafos todo lo que este dentro de una etiqueta <p> */
 .tarjeta p {
-    /* Agrega un comentario aquí para explicar el atributo font-size */
+    /* Definimos el tamaño de la letra  */
     font-size: 0.9em; 
-    /* Agrega un comentario aquí para explicar el atributo line-height */
+    /* Aqui definimos el espacio entre cada linea del parrafo */
     line-height: 1.5; 
 }
